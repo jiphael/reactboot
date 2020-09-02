@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import Footer from './search.js';
-// import TopNav from './topNav.js';
+import FindBar from './search';
+import TopNav from './topnav';
+
 class Header extends React.Component{
     render(){
       return (
@@ -10,7 +10,7 @@ class Header extends React.Component{
           <div class="container">
             <div class="row align-items-center">
   
-              {/* <Search/> */}
+              <FindBar/>
   
               <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
                 <div class="site-logo">
@@ -37,7 +37,7 @@ class Header extends React.Component{
             </div>
           </div>
         </div> 
-        {/* <TopNav/> */}
+         <TopNav/> 
       </header>
       )
     }

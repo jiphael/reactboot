@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-class Search extends React.Component {
+
+class FindBar extends React.Component {
     render() {
         return (
             <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
@@ -9,8 +9,8 @@ class Search extends React.Component {
                     <input type="text" class="form-control border-0" placeholder="Search" />
                 </form>
             </div>
-        )
+        );
     }
 }
 
-export default Search;
+export default FindBar;
